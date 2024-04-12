@@ -1,0 +1,120 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+  <section class="ftco-section contact-section bg-light">
+    <div class="container">
+      <div class="row d-flex contact-info">
+        <div class="w-100"></div>
+        <div class="sidebar-box ftco-animate">
+          <div class="block-21 mb-4 d-flex">
+            <div class="img-wrap-vendor">
+              <img class="img-fluid" src="{{ vendor.image.url }}" alt="{{ vendor.title }}" />
+              <div class="overlay"></div>
+            </div>
+            <div class="text">
+              <h3 class="heading-1">{{ vendor.description }}</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>
+              <span>Постачальник:</span> {{ vendor.title }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>
+              <span>Address:</span> {{ vendor.address }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>
+              <span>Phone:</span> <a href="tel://1234567920">{{ vendor.contact }}</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>
+              <span>Since:</span> {{ vendor.date|date:'Y' }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-degree-bg">
+    <p>We found {{ products.count }} item{{ products.count|pluralize }} for you!</p>
+    <div class="col-lg-4 sidebar ftco-animate">
+      <div class="sidebar-box" style="width: 250px;">
+        <form action="#" class="search-form">
+          <div class="form-group">
+            <span class="icon ion-ios-search"></span>
+            <input type="text" class="form-control" placeholder="Search..." />
+          </div>
+        </form>
+      </div>
+      <div class="sidebar-box ftco-animate" style="width: 250px;">
+        <h3 class="heading">Categories</h3>
+        <ul class="categories">
+          {% for category in categories %}
+            {% if category.category.count %}
+              <li>
+                <a href="#">{{ category.title }} <span>{{ category.category.count }}</span></a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        {% if products.count %}
+          {% for category in categories %}
+            {% for category in categories %}
+              {% for t in products %}
+                {% include 'include/product-list-card.html' %}
+              {% endfor %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col text-center">
+        <div class="block-27">
+          <ul>
+            <li>
+              <a href="#">&lt;</a>
+            </li>
+            <li class="active">
+              <span>1</span>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">4</a>
+            </li>
+            <li>
+              <a href="#">5</a>
+            </li>
+            <li>
+              <a href="#">&gt;</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

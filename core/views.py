@@ -34,7 +34,22 @@ def category_product_list_view(request, cid):
 
 
 def vendor_list_view(request):
-    vendor = Vendor.objects.all()
-    context = {"vendors": vendor}
-    
+    vendors = Vendor.objects.all()
+    context = {"vendors": vendors}
+
     return render(request, "core/vendor-list.html", context)
+
+
+def vendor_detail_view(request, vid):
+    vendor = Vendor.objects.get(vid=vid)
+    products = Product.objects.filter(
+        product_status="published", featured=True, vendor=vendor
+    )
+    context = {"vendor": vendor, "products": products}
+    return render(request, "core/vendor-detail.html", context)
+
+
+def product_detail_view(request, pid):
+    product = Product.objects.get(pid=pid)
+    context = {"product": product}
+    return render(request, "core/product-detail.html", context)

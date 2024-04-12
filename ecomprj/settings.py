@@ -120,7 +120,6 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
@@ -132,22 +131,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 #
 # Default primary key field type
-# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-
-# JAZZMIN_SETTINGS = {  # title of the window (Will default to current_admin_site.site_title if absent or None)
-#     "site_title": "Shop Admin",
-#     "site_header": "Shop",
-#     "login_logo": None,
-#     "site_brand": "Shop fruits",
-#     # "site_logo": "img/theme/logo.gif",
-#     "site_logo": "img/theme/logo.gif",
-#     "welcome_sign": "Welcome to the library",
-#     "copyright": "Shop Fruits by Roman",
-# }
-
 AUTH_USER_MODEL = "userauths.User"
-# X_FRAME_OPTIONS = "SAMEORIGIN"
-# SILENCED_SYSTEM_CHECKS = ["security.W019"]

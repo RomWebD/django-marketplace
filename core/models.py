@@ -33,7 +33,12 @@ def get_image_upload_path(instance, filename):
 # Create your models here.
 class Category(models.Model):
     cid = ShortUUIDField(
-        unique=True, length=10, max_length=30, prefix="cat", alphabet="abcdefgh"
+        unique=True,
+        length=10,
+        max_length=30,
+        editable=False,
+        prefix="cat",
+        alphabet="abcdefgh",
     )
     title = models.CharField(max_length=100)
     image = models.ImageField(upload_to="category")
@@ -49,20 +54,27 @@ class Category(models.Model):
 
 
 class Vendor(models.Model):
+    default_description = "What is Lorem Ipsum?Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     vid = ShortUUIDField(
-        unique=True, length=10, max_length=30, editable=False,prefix="vend", alphabet="abcdefgh"
+        unique=True,
+        length=10,
+        max_length=30,
+        editable=False,
+        prefix="vend",
+        alphabet="abcdefgh",
     )
     title = models.CharField(max_length=100)
-    image = models.ImageField(upload_to=user_directory_path)
-    description = models.TextField(null=True, blank=True)
+    image = models.ImageField(upload_to="vendor", default="vendor.jpg")
+    cover_image = models.ImageField(upload_to=user_directory_path, default="vendor.jpg")
+    description = models.TextField(null=True, blank=True, default=default_description)
     address = models.CharField(max_length=100, default="1 Main Street.")
-    contact = models.CharField(max_length=100, default="+380 069 412 4100")
+    contact = models.CharField(max_length=20, default="+380 069 412 4100")
     chat_resp_time = models.CharField(max_length=100, default="100")
     shipping_on_time = models.CharField(max_length=100, default="1")
     authentic_rating = models.CharField(max_length=100, default="1")
     days_return = models.CharField(max_length=100, default="1")
     warranty_period = models.CharField(max_length=100, default="1")
-
+    date = models.DateTimeField(null=True, blank=True)
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
 
     class Meta:
@@ -81,13 +93,20 @@ class Tags(models.Model):
 
 class Product(models.Model):
     pid = ShortUUIDField(
-        unique=True, length=10, max_length=20, prefix="prd", alphabet="abcdefgh"
+        unique=True,
+        length=10,
+        max_length=20,
+        editable=False,
+        prefix="prd",
+        alphabet="abcdefgh",
     )
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     category = models.ForeignKey(
         Category, on_delete=models.SET_NULL, null=True, related_name="category"
     )
-    vendor = models.ForeignKey(Vendor, on_delete=models.SET_NULL, null=True)
+    vendor = models.ForeignKey(
+        Vendor, on_delete=models.SET_NULL, null=True, related_name="vendor"
+    )
 
     title = models.CharField(max_length=100, default="Fresh Pear")
     image = models.ImageField(upload_to=user_directory_path, default="product.jpg")

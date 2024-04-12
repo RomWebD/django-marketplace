@@ -1,0 +1,209 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+  <section class="ftco-section contact-section bg-light">
+    <div class="container">
+      <div class="row d-flex contact-info">
+        <div class="w-100"></div>
+        <div class="sidebar-box ftco-animate">
+          <div class="block-21 mb-4 d-flex">
+            <div class="img-wrap-vendor">
+              <img class="img-fluid" src="{{ vendor.image.url }}" alt="{{ vendor.title }}" />
+              <div class="overlay"></div>
+            </div>
+            <div class="text">
+              <h3 class="heading-1">{{ vendor.description }}</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>
+              <span>Постачальник:</span> {{ vendor.title }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>
+              <span>Address:</span> {{ vendor.address }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>
+              <span>Phone:</span> <a href="tel://1234567920">{{ vendor.contact }}</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>
+              <span>Since:</span> {{ vendor.date|date:'Y' }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-degree-bg">
+    <div class="container">
+      <p>We found {{ products.count }} item{{ products.count|pluralize }} for you!</p>
+
+      <div class="row">
+        <div class="col-lg-8 ftco-animate">
+          <div class="row">
+            {% for product in products %}
+              <div class="col-md-12 d-flex ftco-animate">
+                <div class="blog-entry align-self-stretch d-md-flex">
+                  <a href="#" class="block-20" style="background-image: url('{{ product.image.url }}')"></a>
+                  <div class="text d-block pl-md-4">
+                    <div class="meta mb-3">
+                      <div>
+                        <a href="#">{{ product.category.title }}</a>
+                      </div>
+                    </div>
+                    <h3 class="heading"><a href="#">{{ product.title }}</a></h3>
+                    <p>{{ product.description|truncatechars:20 }}</p>
+                    <p>
+                      {{ product.price }}/<span class="mr-2 price-dc" style="text-decoration: line-through;">{{ product.old_price }}</span>
+                    </p>
+                    <p>
+                      <a href="blog-single.html" class="btn btn-primary py-2 px-3">Read more</a>
+                    </p> <div class="bottom-area d-flex px-3">
+                      <div class="m-auto d-flex">
+                        <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center"><span><i class="ion-ios-menu"></i></span></a>
+                        <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1"><span><i class="ion-ios-cart"></i></span></a>
+                        <a href="#" class="heart d-flex justify-content-center align-items-center"><span><i class="ion-ios-heart"></i></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div> <!-- .col-md-8 -->
+        <div class="col-lg-4 sidebar ftco-animate">
+          <div class="sidebar-box">
+            <form action="#" class="search-form">
+              <div class="form-group">
+                <span class="icon ion-ios-search"></span>
+                <input type="text" class="form-control" placeholder="Search..." />
+              </div>
+            </form>
+          </div>
+          <div class="sidebar-box ftco-animate">
+            <h3 class="heading">Categories</h3>
+            <ul class="categories">
+              {% for category in categories %}
+                <li>
+                  <a href="#">{{ category.title }} <span>{{ category.category.count }}</span></a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="sidebar-box ftco-animate">
+            <h3 class="heading">Tag Cloud</h3>
+            <div class="tagcloud">
+              <a href="#" class="tag-cloud-link">fruits</a>
+              <a href="#" class="tag-cloud-link">tomatoe</a>
+              <a href="#" class="tag-cloud-link">mango</a>
+              <a href="#" class="tag-cloud-link">apple</a>
+              <a href="#" class="tag-cloud-link">carrots</a>
+              <a href="#" class="tag-cloud-link">orange</a>
+              <a href="#" class="tag-cloud-link">pepper</a>
+              <a href="#" class="tag-cloud-link">eggplant</a>
+            </div>
+          </div>
+
+          <div class="sidebar-box ftco-animate">
+            <h3 class="heading">Paragraph</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+          </div>
+        </div>
+
+        {% if products.count %}
+          {% for product in products %}
+            <div class="col-md-6 col-lg-3 ftco-animate">
+              <div class="product">
+                <a href="#" class="img-prod">
+                  <div class="img-wrap">
+                    <img class="img-fluid" src="{{ product.image.url }}" alt="{{ product.title }}" />
+                    <div class="overlay"></div>
+                  </div>
+                </a>
+
+                <div class="text py-3 pb-4 px-3 text-center">
+                  <p>
+                    <a href="#">{{ product.vendor.title }}</a>
+                  </p>
+                  {% comment %}RATING{% endcomment %}
+                  <div>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star text-primary"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <h3><a href="#">Bell Pepper</a></h3>
+                  <div class="d-flex">
+                    <div class="pricing">
+                      <p class="price">
+                        {% if product.old_price > product.price %}
+                          <span class="mr-2 price-dc">{{ product.old_price }}</span>
+                        {% endif %}
+
+                        <span class="price-sale">{{ product.price }}</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="bottom-area d-flex px-3">
+                    <div class="m-auto d-flex">
+                      <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center"><span><i class="ion-ios-menu"></i></span></a>
+                      <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1"><span><i class="ion-ios-cart"></i></span></a>
+                      <a href="#" class="heart d-flex justify-content-center align-items-center"><span><i class="ion-ios-heart"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div> <div class="row mt-5">
+      <div class="col text-center">
+        <div class="block-27">
+          <ul>
+            <li>
+              <a href="#">&lt;</a>
+            </li>
+            <li class="active">
+              <span>1</span>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">4</a>
+            </li>
+            <li>
+              <a href="#">5</a>
+            </li>
+            <li>
+              <a href="#">&gt;</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
