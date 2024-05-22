@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <link rel="stylesheet" href="{% static 'css/modal-product-card.css' %}" />
   </head>
-  <body>
+  <body class="goto-here">
     {% include 'include/header.html' %}
 
     {% block content %}
@@ -37,32 +37,6 @@
     {% endblock %}
 
     {% include 'include/footer.html' %}
-    <script>
-      // Додаємо обробник подій для кнопки openButton
-      document.querySelectorAll('.openButton').forEach(function (button) {
-        console.log(button)
-        button.addEventListener('click', function () {
-          // Додаємо клас active до кнопки
-          this.classList.add('active')
-      
-          // Отримуємо елемент dialog
-          var dialog = document.getElementById('dialog')
-      
-          // Перевіряємо, чи підтримує браузер метод showModal
-          if (typeof dialog.showModal === 'function') {
-            // Показуємо діалогове вікно
-            dialog.showModal()
-          } else {
-            // Якщо showModal не підтримується, виводимо повідомлення
-            alert('The dialog showModal() method is not supported by this browser.')
-          }
-        })
-      })
-      
-      document.getElementById('closeButton').addEventListener('click', function () {
-        var dialog = document.getElementById('dialog')
-        dialog.close()
-      })
-    </script>
+
   </body>
 </html>

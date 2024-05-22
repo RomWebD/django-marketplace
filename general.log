@@ -1,0 +1,620 @@
+2024-05-22 11:01:42,063 (INFO)- ecomprj.middleware- Request: POST /admin/login/?next=/admin/
+2024-05-22 11:01:42,898 (INFO)- ecomprj.middleware- Response: invalid_login Please enter the correct %(username)s and password for a staff account. Note that both fields may be case-sensitive.
+2024-05-22 11:01:42,901 (INFO)- django.server- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4314
+2024-05-22 11:02:19,369 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:02:19,415 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24370
+2024-05-22 11:02:19,493 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:19,610 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:19,783 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:02:19,786 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:02:19,805 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:02:20,980 (INFO)- ecomprj.middleware- Request: GET /product/prdce4324235
+2024-05-22 11:02:20,996 (INFO)- django.server- "GET /product/prdce4324235 HTTP/1.1" 200 14717
+2024-05-22 11:02:21,064 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:21,153 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:21,247 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:02:21,250 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:02:21,270 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:02:27,817 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:02:27,830 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:02:27,835 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:02:27,843 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:27,878 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:02:27,884 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:02:27,929 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:02:27,947 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:27,964 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:27,979 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:02:27,997 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:02:28,009 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:02:28,046 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:28,062 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:28,088 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:02:28,089 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:02:28,101 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:02:28,132 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:28,140 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:02:28,171 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:02:28,183 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:02:28,187 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:33,794 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:02:33,808 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15363
+2024-05-22 11:02:33,862 (INFO)- ecomprj.middleware- Request: GET /media/product-images/Banana/product-6.jpg
+2024-05-22 11:02:33,867 (INFO)- django.server- "GET /media/product-images/Banana/product-6.jpg HTTP/1.1" 304 0
+2024-05-22 11:02:33,879 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:33,892 (INFO)- ecomprj.middleware- Request: GET /media/product-images/Banana/product-2.jpg
+2024-05-22 11:02:33,896 (INFO)- ecomprj.middleware- Request: GET /media/product-images/Banana/product-8.jpg
+2024-05-22 11:02:33,897 (INFO)- django.server- "GET /media/product-images/Banana/product-2.jpg HTTP/1.1" 304 0
+2024-05-22 11:02:33,900 (INFO)- django.server- "GET /media/product-images/Banana/product-8.jpg HTTP/1.1" 304 0
+2024-05-22 11:02:33,963 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:02:34,042 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:02:34,050 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:02:34,063 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:02:54,829 (INFO)- ecomprj.middleware- Request: POST /admin/login/?next=/admin/
+2024-05-22 11:02:55,511 (INFO)- django.server- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-05-22 11:02:55,517 (INFO)- ecomprj.middleware- Request: GET /admin/
+2024-05-22 11:02:55,596 (INFO)- django.server- "GET /admin/ HTTP/1.1" 200 12976
+2024-05-22 11:02:55,720 (INFO)- django.server- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-05-22 11:02:59,510 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/
+2024-05-22 11:02:59,650 (INFO)- django.server- "GET /admin/core/product/ HTTP/1.1" 200 15714
+2024-05-22 11:02:59,697 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:02:59,709 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:03:15,629 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/3/change/
+2024-05-22 11:03:15,862 (INFO)- django.server- "GET /admin/core/product/3/change/ HTTP/1.1" 200 33137
+2024-05-22 11:03:15,906 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:03:15,916 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:04:24,496 (INFO)- ecomprj.middleware- Request: POST /admin/core/product/3/change/
+2024-05-22 11:04:24,949 (INFO)- django.server- "POST /admin/core/product/3/change/ HTTP/1.1" 302 0
+2024-05-22 11:04:24,955 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/
+2024-05-22 11:04:25,047 (INFO)- django.server- "GET /admin/core/product/ HTTP/1.1" 200 15914
+2024-05-22 11:04:25,218 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:04:25,229 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:04:25,251 (INFO)- ecomprj.middleware- Request: GET /media/user_13/product-6.jpg
+2024-05-22 11:04:25,254 (INFO)- django.server- "GET /media/user_13/product-6.jpg HTTP/1.1" 200 17121
+2024-05-22 11:04:28,514 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/3/change/
+2024-05-22 11:04:28,674 (INFO)- django.server- "GET /admin/core/product/3/change/ HTTP/1.1" 200 33137
+2024-05-22 11:04:28,716 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:04:28,727 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:04:37,213 (INFO)- ecomprj.middleware- Request: POST /admin/core/product/3/change/
+2024-05-22 11:04:37,289 (INFO)- django.server- "POST /admin/core/product/3/change/ HTTP/1.1" 302 0
+2024-05-22 11:04:37,295 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/
+2024-05-22 11:04:37,385 (INFO)- django.server- "GET /admin/core/product/ HTTP/1.1" 200 15914
+2024-05-22 11:04:37,429 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:04:37,431 (INFO)- ecomprj.middleware- Request: GET /media/user_13/product-3.jpg
+2024-05-22 11:04:37,440 (INFO)- django.server- "GET /media/user_13/product-3.jpg HTTP/1.1" 200 11053
+2024-05-22 11:04:37,445 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:04:39,910 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/
+2024-05-22 11:04:40,001 (INFO)- django.server- "GET /admin/core/product/ HTTP/1.1" 200 15714
+2024-05-22 11:04:40,039 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:04:40,041 (INFO)- ecomprj.middleware- Request: GET /media/user_13/product-3.jpg
+2024-05-22 11:04:40,045 (INFO)- django.server- "GET /media/user_13/product-3.jpg HTTP/1.1" 304 0
+2024-05-22 11:04:40,052 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:04:44,576 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/3/change/
+2024-05-22 11:04:44,738 (INFO)- django.server- "GET /admin/core/product/3/change/ HTTP/1.1" 200 33137
+2024-05-22 11:04:44,780 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:04:44,789 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:05:11,445 (INFO)- ecomprj.middleware- Request: POST /admin/core/product/3/change/
+2024-05-22 11:05:12,141 (INFO)- django.server- "POST /admin/core/product/3/change/ HTTP/1.1" 302 0
+2024-05-22 11:05:12,146 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/
+2024-05-22 11:05:12,238 (INFO)- django.server- "GET /admin/core/product/ HTTP/1.1" 200 15914
+2024-05-22 11:05:12,283 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:05:12,293 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:05:12,298 (INFO)- ecomprj.middleware- Request: GET /media/user_13/product-8.jpg
+2024-05-22 11:05:12,300 (INFO)- django.server- "GET /media/user_13/product-8.jpg HTTP/1.1" 200 6387
+2024-05-22 11:05:18,295 (INFO)- ecomprj.middleware- Request: GET /admin/core/product/
+2024-05-22 11:05:18,386 (INFO)- django.server- "GET /admin/core/product/ HTTP/1.1" 200 15714
+2024-05-22 11:05:18,430 (INFO)- ecomprj.middleware- Request: GET /admin/jsi18n/
+2024-05-22 11:05:18,431 (INFO)- ecomprj.middleware- Request: GET /media/user_13/product-8.jpg
+2024-05-22 11:05:18,436 (INFO)- django.server- "GET /media/user_13/product-8.jpg HTTP/1.1" 304 0
+2024-05-22 11:05:18,443 (INFO)- django.server- "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-22 11:05:41,816 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:05:41,829 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15363
+2024-05-22 11:05:41,990 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:05:42,108 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:05:42,114 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:05:42,129 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:06:20,476 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:06:20,499 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15058
+2024-05-22 11:06:20,683 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:06:20,755 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:06:20,758 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:06:20,810 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:20:42,358 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:20:42,380 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15058
+2024-05-22 11:20:42,573 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:20:42,679 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:20:42,689 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:20:42,700 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:20:46,551 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:20:46,573 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:20:46,760 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:20:46,836 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:20:46,840 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:20:46,860 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:21:02,123 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:21:02,137 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:21:02,272 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:21:02,334 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:21:02,338 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:21:02,356 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:22:32,824 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:22:32,848 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15322
+2024-05-22 11:22:32,994 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:22:33,102 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:22:33,107 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:22:33,122 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:22:51,550 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:22:51,575 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15190
+2024-05-22 11:22:51,724 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:22:51,829 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:22:51,840 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:22:51,844 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:23:13,840 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:23:13,861 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15180
+2024-05-22 11:23:14,000 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:23:14,071 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:23:14,074 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:23:14,095 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:23:15,359 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:23:15,382 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15138
+2024-05-22 11:23:15,608 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:23:15,691 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:23:15,704 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:23:15,708 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:23:19,538 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:23:19,552 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15138
+2024-05-22 11:23:19,693 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:23:19,786 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:23:19,794 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:23:19,807 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:23:26,950 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:23:26,963 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15138
+2024-05-22 11:23:27,109 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:23:27,200 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:23:27,208 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:23:27,220 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:25:06,704 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:25:06,726 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15180
+2024-05-22 11:25:06,893 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:25:06,979 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:25:06,982 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:25:07,019 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:25:08,827 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:25:08,863 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24492
+2024-05-22 11:25:08,922 (INFO)- ecomprj.middleware- Request: GET /media/user_13/product-8.jpg
+2024-05-22 11:25:08,929 (INFO)- django.server- "GET /media/user_13/product-8.jpg HTTP/1.1" 304 0
+2024-05-22 11:25:08,941 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:25:09,058 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:25:09,118 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:25:09,121 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:25:09,148 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:25:13,370 (INFO)- ecomprj.middleware- Request: GET /
+2024-05-22 11:25:13,387 (INFO)- django.server- "GET / HTTP/1.1" 200 30191
+2024-05-22 11:25:13,455 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:25:13,512 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:25:13,598 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:25:13,625 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:25:13,629 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:25:13,633 (INFO)- ecomprj.middleware- Request: GET /images/bg_2.jpg
+2024-05-22 11:25:13,653 (INFO)- ecomprj.middleware- Request: GET /images/person_1.jpg
+2024-05-22 11:25:13,661 (WARNING)- django.request- Not Found: /images/bg_2.jpg
+2024-05-22 11:25:13,663 (INFO)- ecomprj.middleware- Request: GET /images/person_2.jpg
+2024-05-22 11:25:13,672 (WARNING)- django.server- "GET /images/bg_2.jpg HTTP/1.1" 404 3761
+2024-05-22 11:25:13,674 (INFO)- ecomprj.middleware- Request: GET /images/person_3.jpg
+2024-05-22 11:25:13,717 (WARNING)- django.request- Not Found: /images/person_1.jpg
+2024-05-22 11:25:13,726 (WARNING)- django.request- Not Found: /images/person_2.jpg
+2024-05-22 11:25:13,726 (WARNING)- django.server- "GET /images/person_1.jpg HTTP/1.1" 404 3773
+2024-05-22 11:25:13,733 (WARNING)- django.request- Not Found: /images/person_3.jpg
+2024-05-22 11:25:13,733 (WARNING)- django.server- "GET /images/person_2.jpg HTTP/1.1" 404 3773
+2024-05-22 11:25:13,735 (WARNING)- django.server- "GET /images/person_3.jpg HTTP/1.1" 404 3773
+2024-05-22 11:25:14,129 (INFO)- ecomprj.middleware- Request: GET /
+2024-05-22 11:25:14,144 (INFO)- django.server- "GET / HTTP/1.1" 200 30191
+2024-05-22 11:25:14,303 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:25:14,303 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:25:14,343 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:25:14,347 (INFO)- ecomprj.middleware- Request: GET /images/bg_2.jpg
+2024-05-22 11:25:14,351 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:25:14,360 (INFO)- ecomprj.middleware- Request: GET /images/person_1.jpg
+2024-05-22 11:25:14,369 (INFO)- ecomprj.middleware- Request: GET /images/person_2.jpg
+2024-05-22 11:25:14,382 (INFO)- ecomprj.middleware- Request: GET /images/person_3.jpg
+2024-05-22 11:25:14,396 (WARNING)- django.request- Not Found: /images/bg_2.jpg
+2024-05-22 11:25:14,408 (WARNING)- django.server- "GET /images/bg_2.jpg HTTP/1.1" 404 3761
+2024-05-22 11:25:14,422 (WARNING)- django.request- Not Found: /images/person_1.jpg
+2024-05-22 11:25:14,432 (WARNING)- django.server- "GET /images/person_1.jpg HTTP/1.1" 404 3773
+2024-05-22 11:25:14,437 (WARNING)- django.request- Not Found: /images/person_2.jpg
+2024-05-22 11:25:14,444 (WARNING)- django.request- Not Found: /images/person_3.jpg
+2024-05-22 11:25:14,445 (WARNING)- django.server- "GET /images/person_2.jpg HTTP/1.1" 404 3773
+2024-05-22 11:25:14,446 (WARNING)- django.server- "GET /images/person_3.jpg HTTP/1.1" 404 3773
+2024-05-22 11:26:16,132 (INFO)- ecomprj.middleware- Request: GET /
+2024-05-22 11:26:16,146 (INFO)- django.server- "GET / HTTP/1.1" 200 30191
+2024-05-22 11:26:16,333 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:26:16,351 (INFO)- ecomprj.middleware- Request: GET /images/bg_2.jpg
+2024-05-22 11:26:16,362 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:26:16,363 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:26:16,379 (WARNING)- django.request- Not Found: /images/bg_2.jpg
+2024-05-22 11:26:16,382 (WARNING)- django.server- "GET /images/bg_2.jpg HTTP/1.1" 404 3761
+2024-05-22 11:26:16,384 (INFO)- ecomprj.middleware- Request: GET /images/person_1.jpg
+2024-05-22 11:26:16,388 (INFO)- ecomprj.middleware- Request: GET /images/person_2.jpg
+2024-05-22 11:26:16,397 (INFO)- ecomprj.middleware- Request: GET /images/person_3.jpg
+2024-05-22 11:26:16,449 (WARNING)- django.request- Not Found: /images/person_1.jpg
+2024-05-22 11:26:16,464 (WARNING)- django.request- Not Found: /images/person_2.jpg
+2024-05-22 11:26:16,465 (WARNING)- django.server- "GET /images/person_1.jpg HTTP/1.1" 404 3773
+2024-05-22 11:26:16,470 (WARNING)- django.request- Not Found: /images/person_3.jpg
+2024-05-22 11:26:16,474 (WARNING)- django.server- "GET /images/person_2.jpg HTTP/1.1" 404 3773
+2024-05-22 11:26:16,474 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:26:16,475 (WARNING)- django.server- "GET /images/person_3.jpg HTTP/1.1" 404 3773
+2024-05-22 11:26:24,148 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:26:24,181 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24492
+2024-05-22 11:26:24,289 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:26:24,356 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:26:24,356 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:26:24,376 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:26:24,389 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:26:26,168 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:26:26,199 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24492
+2024-05-22 11:26:26,329 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:26:26,329 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:26:26,370 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:26:26,384 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:26:34,474 (INFO)- ecomprj.middleware- Request: GET /
+2024-05-22 11:26:34,489 (INFO)- django.server- "GET / HTTP/1.1" 200 30191
+2024-05-22 11:26:34,577 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:26:34,645 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:26:34,693 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:26:34,713 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:26:34,722 (INFO)- ecomprj.middleware- Request: GET /images/bg_2.jpg
+2024-05-22 11:26:34,740 (INFO)- ecomprj.middleware- Request: GET /images/person_1.jpg
+2024-05-22 11:26:34,747 (WARNING)- django.request- Not Found: /images/bg_2.jpg
+2024-05-22 11:26:34,749 (INFO)- ecomprj.middleware- Request: GET /images/person_2.jpg
+2024-05-22 11:26:34,759 (INFO)- ecomprj.middleware- Request: GET /images/person_3.jpg
+2024-05-22 11:26:34,759 (WARNING)- django.server- "GET /images/bg_2.jpg HTTP/1.1" 404 3761
+2024-05-22 11:26:34,809 (WARNING)- django.request- Not Found: /images/person_1.jpg
+2024-05-22 11:26:34,820 (WARNING)- django.server- "GET /images/person_1.jpg HTTP/1.1" 404 3773
+2024-05-22 11:26:34,825 (WARNING)- django.request- Not Found: /images/person_2.jpg
+2024-05-22 11:26:34,828 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:26:34,834 (WARNING)- django.request- Not Found: /images/person_3.jpg
+2024-05-22 11:26:34,835 (WARNING)- django.server- "GET /images/person_2.jpg HTTP/1.1" 404 3773
+2024-05-22 11:26:34,837 (WARNING)- django.server- "GET /images/person_3.jpg HTTP/1.1" 404 3773
+2024-05-22 11:27:24,015 (INFO)- ecomprj.middleware- Request: GET /
+2024-05-22 11:27:24,038 (INFO)- django.server- "GET / HTTP/1.1" 200 30186
+2024-05-22 11:27:24,104 (INFO)- ecomprj.middleware- Request: GET /media/user_13/product-8.jpg
+2024-05-22 11:27:24,106 (INFO)- django.server- "GET /media/user_13/product-8.jpg HTTP/1.1" 304 0
+2024-05-22 11:27:24,235 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:24,397 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:27:24,407 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:27:24,409 (INFO)- ecomprj.middleware- Request: GET /images/bg_2.jpg
+2024-05-22 11:27:24,412 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:27:24,418 (INFO)- ecomprj.middleware- Request: GET /images/person_1.jpg
+2024-05-22 11:27:24,421 (INFO)- ecomprj.middleware- Request: GET /images/person_2.jpg
+2024-05-22 11:27:24,430 (INFO)- ecomprj.middleware- Request: GET /images/person_3.jpg
+2024-05-22 11:27:24,470 (WARNING)- django.request- Not Found: /images/bg_2.jpg
+2024-05-22 11:27:24,493 (WARNING)- django.request- Not Found: /images/person_1.jpg
+2024-05-22 11:27:24,493 (WARNING)- django.server- "GET /images/bg_2.jpg HTTP/1.1" 404 3761
+2024-05-22 11:27:24,495 (WARNING)- django.server- "GET /images/person_1.jpg HTTP/1.1" 404 3773
+2024-05-22 11:27:24,501 (WARNING)- django.request- Not Found: /images/person_2.jpg
+2024-05-22 11:27:24,505 (WARNING)- django.request- Not Found: /images/person_3.jpg
+2024-05-22 11:27:24,508 (WARNING)- django.server- "GET /images/person_2.jpg HTTP/1.1" 404 3773
+2024-05-22 11:27:24,508 (WARNING)- django.server- "GET /images/person_3.jpg HTTP/1.1" 404 3773
+2024-05-22 11:27:24,578 (INFO)- ecomprj.middleware- Request: GET /
+2024-05-22 11:27:24,592 (INFO)- django.server- "GET / HTTP/1.1" 200 30186
+2024-05-22 11:27:24,770 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:27:24,770 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:27:24,819 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:24,846 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:27:24,856 (INFO)- ecomprj.middleware- Request: GET /images/bg_2.jpg
+2024-05-22 11:27:24,875 (INFO)- ecomprj.middleware- Request: GET /images/person_1.jpg
+2024-05-22 11:27:24,880 (WARNING)- django.request- Not Found: /images/bg_2.jpg
+2024-05-22 11:27:24,889 (INFO)- ecomprj.middleware- Request: GET /images/person_2.jpg
+2024-05-22 11:27:24,900 (WARNING)- django.server- "GET /images/bg_2.jpg HTTP/1.1" 404 3761
+2024-05-22 11:27:24,903 (INFO)- ecomprj.middleware- Request: GET /images/person_3.jpg
+2024-05-22 11:27:24,916 (WARNING)- django.request- Not Found: /images/person_1.jpg
+2024-05-22 11:27:24,929 (WARNING)- django.server- "GET /images/person_1.jpg HTTP/1.1" 404 3773
+2024-05-22 11:27:24,947 (WARNING)- django.request- Not Found: /images/person_2.jpg
+2024-05-22 11:27:24,953 (WARNING)- django.request- Not Found: /images/person_3.jpg
+2024-05-22 11:27:24,954 (WARNING)- django.server- "GET /images/person_2.jpg HTTP/1.1" 404 3773
+2024-05-22 11:27:24,955 (WARNING)- django.server- "GET /images/person_3.jpg HTTP/1.1" 404 3773
+2024-05-22 11:27:29,426 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:27:29,467 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24487
+2024-05-22 11:27:29,560 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:29,867 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:29,898 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:27:29,898 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:27:29,903 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:27:36,501 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:27:36,543 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24371
+2024-05-22 11:27:36,669 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:27:36,670 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:27:36,706 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:36,728 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:27:38,208 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:27:38,240 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24371
+2024-05-22 11:27:38,384 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:27:38,384 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:27:38,412 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:38,424 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:27:41,907 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:27:41,923 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15059
+2024-05-22 11:27:41,993 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:42,091 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:42,171 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:27:42,178 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:27:42,190 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:27:49,499 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:27:49,530 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24371
+2024-05-22 11:27:49,598 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:49,675 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:27:49,678 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:27:49,724 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:27:49,780 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:29:12,770 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:29:12,797 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15211
+2024-05-22 11:29:12,871 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:29:12,948 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:29:12,965 (INFO)- django.server- "GET /static/fonts/open-iconic/open-iconic.woff HTTP/1.1" 200 14984
+2024-05-22 11:29:13,071 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:29:13,075 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:29:13,095 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:29:15,470 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:29:15,485 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15211
+2024-05-22 11:29:15,630 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:29:15,693 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:29:15,701 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:29:15,713 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:29:28,726 (INFO)- ecomprj.middleware- Request: GET /products/
+2024-05-22 11:29:28,762 (INFO)- django.server- "GET /products/ HTTP/1.1" 200 24371
+2024-05-22 11:29:28,826 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:29:28,896 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:29:28,900 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:29:28,970 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:29:28,974 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:29:34,316 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:29:34,330 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15211
+2024-05-22 11:29:34,402 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:29:34,478 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:29:34,537 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:29:34,541 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:29:34,566 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:30:02,488 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:30:02,511 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15060
+2024-05-22 11:30:02,662 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:30:02,726 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:30:02,735 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:30:02,748 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:30:09,308 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:30:09,334 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15060
+2024-05-22 11:30:09,605 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:30:09,634 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:30:09,646 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:30:09,650 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:30:10,616 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:30:10,639 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15205
+2024-05-22 11:30:10,784 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:30:10,845 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:30:10,852 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:30:10,871 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:30:33,871 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:30:33,894 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15207
+2024-05-22 11:30:34,040 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:30:34,114 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:30:34,118 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:30:34,130 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:30:34,951 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:30:34,965 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15207
+2024-05-22 11:30:35,119 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:30:35,178 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:30:35,187 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:30:35,199 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:30:36,055 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:30:36,070 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15207
+2024-05-22 11:30:36,215 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:30:36,314 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:30:36,347 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:30:36,352 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:32:38,078 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:32:38,101 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15205
+2024-05-22 11:32:38,237 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:32:38,312 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:32:38,316 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:32:38,334 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:33:01,443 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:33:01,465 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15175
+2024-05-22 11:33:01,608 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:33:01,668 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:33:01,672 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:33:01,698 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:33:02,436 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:33:02,451 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15175
+2024-05-22 11:33:02,590 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:33:02,694 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:33:02,699 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:33:02,716 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:33:30,958 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:33:30,980 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15157
+2024-05-22 11:33:31,128 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:33:31,202 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:33:31,206 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:33:31,217 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:33:45,091 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:33:45,112 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:33:45,257 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:33:45,344 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:33:45,348 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:33:45,364 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:33:46,592 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:33:46,930 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:33:47,071 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:33:47,136 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:33:47,145 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:33:47,157 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:33:51,167 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:33:51,182 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:33:51,329 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:33:51,408 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:33:51,414 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:33:51,431 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:33:52,289 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:33:52,311 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:33:52,457 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:33:52,522 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:33:52,525 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:33:52,538 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:00,688 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:00,703 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:34:00,848 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:00,913 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:00,916 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:00,933 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:01,712 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:01,735 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15177
+2024-05-22 11:34:01,877 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:01,942 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:01,949 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:01,962 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:02,682 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:02,696 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15177
+2024-05-22 11:34:02,836 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:02,907 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:02,917 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:02,930 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:06,887 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:06,900 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15177
+2024-05-22 11:34:07,041 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:07,116 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:07,126 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:07,130 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:07,728 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:07,751 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:34:07,908 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:08,009 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:08,013 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:08,032 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:08,753 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:08,767 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:34:08,908 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:08,982 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:08,985 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:08,997 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:09,788 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:09,803 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:34:10,077 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:10,103 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:10,114 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:10,117 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:14,681 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:14,695 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:34:14,841 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:14,910 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:14,914 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:14,926 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:15,558 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:15,580 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15177
+2024-05-22 11:34:15,733 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:15,791 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:15,795 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:15,807 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:16,602 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:16,615 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15177
+2024-05-22 11:34:16,791 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:16,860 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:16,863 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:16,876 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:19,792 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:19,806 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15177
+2024-05-22 11:34:19,843 (INFO)- ecomprj.middleware- Request: GET /media/product-images/Banana/product-6.jpg
+2024-05-22 11:34:19,847 (INFO)- ecomprj.middleware- Request: GET /media/product-images/Banana/product-2.jpg
+2024-05-22 11:34:19,849 (INFO)- django.server- "GET /media/product-images/Banana/product-6.jpg HTTP/1.1" 304 0
+2024-05-22 11:34:19,852 (INFO)- ecomprj.middleware- Request: GET /media/product-images/Banana/product-8.jpg
+2024-05-22 11:34:19,853 (INFO)- django.server- "GET /media/product-images/Banana/product-2.jpg HTTP/1.1" 304 0
+2024-05-22 11:34:19,855 (INFO)- django.server- "GET /media/product-images/Banana/product-8.jpg HTTP/1.1" 304 0
+2024-05-22 11:34:26,938 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:26,960 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:34:27,099 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:27,174 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:27,177 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:27,194 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:27,776 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:27,790 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:34:27,928 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:27,996 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:28,005 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:28,018 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:34,218 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:34,240 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15179
+2024-05-22 11:34:34,444 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:34,523 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:34,544 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:34,558 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:34,942 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:34,965 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:34:35,148 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:35,207 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:35,218 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:35,222 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:35,728 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:35,742 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:34:35,918 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:36,012 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:36,018 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:36,022 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:39,520 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:39,533 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:34:39,742 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:39,853 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:39,865 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:39,869 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:40,510 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:40,533 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:34:40,681 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:40,744 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:40,752 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:40,765 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:46,482 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:46,504 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:34:46,645 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:46,714 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:46,722 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:46,735 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:47,058 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:47,083 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:34:47,249 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:47,339 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:47,350 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:47,353 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:34:47,458 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:34:47,472 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:34:47,634 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:34:47,750 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:34:47,753 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:34:47,770 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:36:46,461 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:36:46,483 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:36:46,626 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:36:46,685 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:36:46,707 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:36:46,711 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 11:36:47,480 (INFO)- ecomprj.middleware- Request: GET /product/prdcehhafhafb
+2024-05-22 11:36:47,494 (INFO)- django.server- "GET /product/prdcehhafhafb HTTP/1.1" 200 15178
+2024-05-22 11:36:47,648 (WARNING)- django.server- "GET /static/css/aos.css.map HTTP/1.1" 404 1905
+2024-05-22 11:36:47,710 (WARNING)- django.server- "GET /static/js/popper.min.js.map HTTP/1.1" 404 1920
+2024-05-22 11:36:47,715 (WARNING)- django.server- "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1929
+2024-05-22 11:36:47,732 (WARNING)- django.server- "GET /static/js/aos.js.map HTTP/1.1" 404 1899
+2024-05-22 12:03:32,232 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:03:34,237 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:03:40,609 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:03:42,469 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:04:08,283 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:04:10,197 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:05:24,697 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:05:26,782 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:05:32,084 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:05:34,148 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:06:29,064 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:06:31,111 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:07:03,371 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:07:05,951 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:07:13,829 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:07:15,781 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:07:25,391 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:07:27,380 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader
+2024-05-22 12:07:55,337 (INFO)- django.utils.autoreload- C:\Users\06\Downloads\django-projects\django-marketplace\core\models.py changed, reloading.
+2024-05-22 12:07:57,320 (INFO)- django.utils.autoreload- Watching for file changes with StatReloader

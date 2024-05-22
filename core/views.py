@@ -3,6 +3,9 @@ from django.db.models import Count
 
 # Create your views here.
 from core.models import Product, Category, Vendor
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def index(request):
@@ -24,7 +27,7 @@ def category_list_view(request):
     return render(request, "core/category-list.html", context)
 
 
-def category_product_list_view(request, cid):
+def category_product_list_view(request, name, cid):
     category = Category.objects.get(cid=cid)
     products = Product.objects.filter(
         product_status="published", featured=True, category=category
@@ -50,6 +53,10 @@ def vendor_detail_view(request, vid):
 
 
 def product_detail_view(request, pid):
-    product = Product.objects.get(pid=pid)
-    context = {"product": product}
-    return render(request, "core/product-detail.html", context)
+    try:
+        product = Product.objects.get(pid=pid)
+        p_image = product.p_images.all()
+        context = {"product": product, "p_image": p_image}
+        return render(request, "core/product-detail.html", context)
+    except Exception as error:
+        logger.error("This is an error message.")

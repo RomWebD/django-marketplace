@@ -27,6 +27,7 @@ def user_directory_path(instance, filename):
 
 
 def get_image_upload_path(instance, filename):
+    print(f"product-images/{instance.product.title}/{filename}")
     return f"product-images/{instance.product.title}/{filename}"
 
 
@@ -121,6 +122,10 @@ class Product(models.Model):
     weight = models.CharField(max_length=10, default="1kg")
     specifications = models.TextField(null=True, blank=True)
     # tags = models.ForeignKey(Tags, on_delete=models.SET_NULL, null=True)
+    type = models.CharField(max_length=100, default="Organic")
+    stock_count = models.CharField(max_length=100, default="10", null=True, blank=True)
+    life = models.CharField(max_length=100, default="3", null=True, blank=True)
+    mfd = models.DateTimeField(auto_now_add=False, null=True, blank=True)
 
     product_status = models.CharField(
         choices=STATUS, max_length=10, default="in_review"
@@ -155,7 +160,9 @@ class Product(models.Model):
 
 class ProductImages(models.Model):
     images = models.ImageField(upload_to=get_image_upload_path, default="product.jpg")
-    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True)
+    product = models.ForeignKey(
+        Product, related_name="p_images", on_delete=models.SET_NULL, null=True
+    )
     date = models.DateTimeField(auto_now_add=True)
 
     class Meta:
